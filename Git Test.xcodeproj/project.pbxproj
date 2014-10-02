@@ -21,6 +21,7 @@
 		50AE275119DCC0D00095E0EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AE273319DCC0D00095E0EC /* UIKit.framework */; };
 		50AE275919DCC0D00095E0EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50AE275719DCC0D00095E0EC /* InfoPlist.strings */; };
 		50AE275B19DCC0D00095E0EC /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE275A19DCC0D00095E0EC /* Git_TestTests.m */; };
+		50AE276619DCCF2C0095E0EC /* BTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE276519DCCF2C0095E0EC /* BTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		50AE275619DCC0D00095E0EC /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		50AE275819DCC0D00095E0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50AE275A19DCC0D00095E0EC /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		50AE276419DCCF2C0095E0EC /* BTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTest.h; sourceTree = "<group>"; };
+		50AE276519DCCF2C0095E0EC /* BTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		50AE272319DCC0D00095E0EC = {
 			isa = PBXGroup;
 			children = (
+				50AE276419DCCF2C0095E0EC /* BTTest.h */,
+				50AE276519DCCF2C0095E0EC /* BTTest.m */,
 				50AE273519DCC0D00095E0EC /* Git Test */,
 				50AE275419DCC0D00095E0EC /* Git TestTests */,
 				50AE272E19DCC0D00095E0EC /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AE274619DCC0D00095E0EC /* BTViewController.m in Sources */,
+				50AE276619DCCF2C0095E0EC /* BTTest.m in Sources */,
 				50AE274019DCC0D00095E0EC /* BTAppDelegate.m in Sources */,
 				50AE273C19DCC0D00095E0EC /* main.m in Sources */,
 			);
